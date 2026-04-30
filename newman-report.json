@@ -1,0 +1,794 @@
+{
+  "collection": {
+    "item": [
+      {
+        "id": "a85d98bd-175e-4487-9c11-7bf78cdc1bf2",
+        "name": "Get all places",
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "api",
+              "places"
+            ],
+            "host": [
+              "bangladesh-dotnet-api",
+              "onrender",
+              "com"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "method": "GET"
+        },
+        "response": [],
+        "event": []
+      },
+      {
+        "id": "44dd7464-a6ae-45c7-a93c-f7a24429e5cf",
+        "name": "Get place ID 1",
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "api",
+              "places",
+              "1"
+            ],
+            "host": [
+              "bangladesh-dotnet-api",
+              "onrender",
+              "com"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "method": "GET"
+        },
+        "response": [],
+        "event": []
+      }
+    ],
+    "event": [],
+    "variable": [],
+    "info": {
+      "_postman_id": "afd14b7d-3d18-43e1-a813-30ed4ecb13dc",
+      "name": "Bangladesh Tourism API Tests",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    }
+  },
+  "environment": {
+    "id": "4bbe1a99-e686-437e-9212-dff6f9ad6db7",
+    "values": []
+  },
+  "globals": {
+    "id": "9bbc5167-856f-4978-9809-0063dab005d3",
+    "values": []
+  },
+  "run": {
+    "stats": {
+      "iterations": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "items": {
+        "total": 2,
+        "pending": 0,
+        "failed": 0
+      },
+      "scripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequests": {
+        "total": 2,
+        "pending": 0,
+        "failed": 0
+      },
+      "requests": {
+        "total": 2,
+        "pending": 0,
+        "failed": 0
+      },
+      "tests": {
+        "total": 2,
+        "pending": 0,
+        "failed": 0
+      },
+      "assertions": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "testScripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequestScripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      }
+    },
+    "timings": {
+      "responseAverage": 400,
+      "responseMin": 258,
+      "responseMax": 542,
+      "responseSd": 142,
+      "dnsAverage": 0,
+      "dnsMin": 0,
+      "dnsMax": 0,
+      "dnsSd": 0,
+      "firstByteAverage": 0,
+      "firstByteMin": 0,
+      "firstByteMax": 0,
+      "firstByteSd": 0,
+      "started": 1777584505624,
+      "completed": 1777584506722
+    },
+    "executions": [
+      {
+        "cursor": {
+          "position": 0,
+          "iteration": 0,
+          "length": 2,
+          "cycles": 1,
+          "empty": false,
+          "eof": false,
+          "bof": true,
+          "cr": false,
+          "ref": "43d8275d-bfdf-40ad-b708-43a333e673d3",
+          "httpRequestId": "810323ce-0eea-4ad8-9e95-e8e4ee196d79"
+        },
+        "item": {
+          "id": "a85d98bd-175e-4487-9c11-7bf78cdc1bf2",
+          "name": "Get all places",
+          "request": {
+            "url": {
+              "protocol": "https",
+              "path": [
+                "api",
+                "places"
+              ],
+              "host": [
+                "bangladesh-dotnet-api",
+                "onrender",
+                "com"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET"
+          },
+          "response": [],
+          "event": []
+        },
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "api",
+              "places"
+            ],
+            "host": [
+              "bangladesh-dotnet-api",
+              "onrender",
+              "com"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "User-Agent",
+              "value": "PostmanRuntime/7.39.1",
+              "system": true
+            },
+            {
+              "key": "Accept",
+              "value": "*/*",
+              "system": true
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache",
+              "system": true
+            },
+            {
+              "key": "Postman-Token",
+              "value": "66745eb1-e202-4b7a-8249-c5a3a3ab1dbf",
+              "system": true
+            },
+            {
+              "key": "Host",
+              "value": "bangladesh-dotnet-api.onrender.com",
+              "system": true
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "gzip, deflate, br",
+              "system": true
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "system": true
+            }
+          ],
+          "method": "GET"
+        },
+        "response": {
+          "id": "5b56f8de-9e22-4d06-89e9-28311c047619",
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 30 Apr 2026 21:28:27 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "162"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "rndr-id",
+              "value": "9354eaae-f297-4648"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-render-origin-server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "9f49a2df9c9548ff-DAC"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "stream": {
+            "type": "Buffer",
+            "data": [
+              91,
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              49,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              67,
+              111,
+              120,
+              39,
+              115,
+              32,
+              66,
+              97,
+              122,
+              97,
+              114,
+              34,
+              44,
+              34,
+              116,
+              121,
+              112,
+              101,
+              34,
+              58,
+              34,
+              66,
+              101,
+              97,
+              99,
+              104,
+              34,
+              44,
+              34,
+              100,
+              101,
+              115,
+              99,
+              114,
+              105,
+              112,
+              116,
+              105,
+              111,
+              110,
+              34,
+              58,
+              34,
+              87,
+              111,
+              114,
+              108,
+              100,
+              39,
+              115,
+              32,
+              108,
+              111,
+              110,
+              103,
+              101,
+              115,
+              116,
+              32,
+              115,
+              101,
+              97,
+              32,
+              98,
+              101,
+              97,
+              99,
+              104,
+              34,
+              125,
+              44,
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              50,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              83,
+              121,
+              108,
+              104,
+              101,
+              116,
+              34,
+              44,
+              34,
+              116,
+              121,
+              112,
+              101,
+              34,
+              58,
+              34,
+              84,
+              101,
+              97,
+              32,
+              71,
+              97,
+              114,
+              100,
+              101,
+              110,
+              115,
+              34,
+              44,
+              34,
+              100,
+              101,
+              115,
+              99,
+              114,
+              105,
+              112,
+              116,
+              105,
+              111,
+              110,
+              34,
+              58,
+              34,
+              66,
+              101,
+              97,
+              117,
+              116,
+              105,
+              102,
+              117,
+              108,
+              32,
+              116,
+              101,
+              97,
+              32,
+              101,
+              115,
+              116,
+              97,
+              116,
+              101,
+              115,
+              34,
+              125,
+              44,
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              51,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              66,
+              97,
+              110,
+              100,
+              97,
+              114,
+              98,
+              97,
+              110,
+              34,
+              44,
+              34,
+              116,
+              121,
+              112,
+              101,
+              34,
+              58,
+              34,
+              72,
+              105,
+              108,
+              108,
+              32,
+              84,
+              114,
+              97,
+              99,
+              116,
+              115,
+              34,
+              44,
+              34,
+              100,
+              101,
+              115,
+              99,
+              114,
+              105,
+              112,
+              116,
+              105,
+              111,
+              110,
+              34,
+              58,
+              34,
+              65,
+              109,
+              97,
+              122,
+              105,
+              110,
+              103,
+              32,
+              109,
+              111,
+              117,
+              110,
+              116,
+              97,
+              105,
+              110,
+              32,
+              118,
+              105,
+              101,
+              119,
+              115,
+              34,
+              125,
+              93
+            ]
+          },
+          "cookie": [],
+          "responseTime": 542,
+          "responseSize": 260
+        },
+        "id": "a85d98bd-175e-4487-9c11-7bf78cdc1bf2"
+      },
+      {
+        "cursor": {
+          "ref": "1fc013d7-c654-425b-b20f-4e091abac110",
+          "length": 2,
+          "cycles": 1,
+          "position": 1,
+          "iteration": 0,
+          "httpRequestId": "2e6854e2-ee44-4217-add2-1e42be831e28"
+        },
+        "item": {
+          "id": "44dd7464-a6ae-45c7-a93c-f7a24429e5cf",
+          "name": "Get place ID 1",
+          "request": {
+            "url": {
+              "protocol": "https",
+              "path": [
+                "api",
+                "places",
+                "1"
+              ],
+              "host": [
+                "bangladesh-dotnet-api",
+                "onrender",
+                "com"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET"
+          },
+          "response": [],
+          "event": []
+        },
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "api",
+              "places",
+              "1"
+            ],
+            "host": [
+              "bangladesh-dotnet-api",
+              "onrender",
+              "com"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "User-Agent",
+              "value": "PostmanRuntime/7.39.1",
+              "system": true
+            },
+            {
+              "key": "Accept",
+              "value": "*/*",
+              "system": true
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache",
+              "system": true
+            },
+            {
+              "key": "Postman-Token",
+              "value": "15b7462f-3214-4a2d-9676-b41cfdbb3f72",
+              "system": true
+            },
+            {
+              "key": "Host",
+              "value": "bangladesh-dotnet-api.onrender.com",
+              "system": true
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "gzip, deflate, br",
+              "system": true
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "system": true
+            }
+          ],
+          "method": "GET"
+        },
+        "response": {
+          "id": "c5b89ae9-9ca9-4f30-a952-1fd035e98061",
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 30 Apr 2026 21:28:27 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "77"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "rndr-id",
+              "value": "5d01d102-0551-4b16"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-render-origin-server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "9f49a2e2e9b448ff-DAC"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "stream": {
+            "type": "Buffer",
+            "data": [
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              49,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              67,
+              111,
+              120,
+              39,
+              115,
+              32,
+              66,
+              97,
+              122,
+              97,
+              114,
+              34,
+              44,
+              34,
+              116,
+              121,
+              112,
+              101,
+              34,
+              58,
+              34,
+              66,
+              101,
+              97,
+              99,
+              104,
+              34,
+              44,
+              34,
+              100,
+              101,
+              115,
+              99,
+              114,
+              105,
+              112,
+              116,
+              105,
+              111,
+              110,
+              34,
+              58,
+              34,
+              87,
+              111,
+              114,
+              108,
+              100,
+              39,
+              115,
+              32,
+              108,
+              111,
+              110,
+              103,
+              101,
+              115,
+              116,
+              32,
+              115,
+              101,
+              97,
+              32,
+              98,
+              101,
+              97,
+              99,
+              104,
+              34,
+              125
+            ]
+          },
+          "cookie": [],
+          "responseTime": 258,
+          "responseSize": 86
+        },
+        "id": "44dd7464-a6ae-45c7-a93c-f7a24429e5cf"
+      }
+    ],
+    "transfers": {
+      "responseTotal": 346
+    },
+    "failures": [],
+    "error": null
+  }
+}
