@@ -41,3 +41,15 @@ A simple REST API for tourist places in Bangladesh, built with ASP.NET Core. Thi
     "description": "Amazing mountain views"
   }
 ]
+
+
+
+
+
+
+
+## 📸 API in Action
+
+![API Response Screenshot](./api-screenshot.png)
+
+*GET request to `/api/places` returning tourist data*
