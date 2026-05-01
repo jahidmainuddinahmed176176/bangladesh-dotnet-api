@@ -1,7 +1,5 @@
 # Bangladesh Tourism API
 
-![Newman Tests](https://img.shields.io/badge/Newman-Passing-brightgreen)
-
 A simple REST API for tourist places in Bangladesh, built with ASP.NET Core. This API serves data to the [Bangladesh Tourism React App](https://github.com/jahidmainuddinahmed176176/bangladesh-tourism).
 
 🌐 **Live API:** [https://bangladesh-dotnet-api.onrender.com](https://bangladesh-dotnet-api.onrender.com)
