@@ -2,7 +2,7 @@
   "collection": {
     "item": [
       {
-        "id": "a85d98bd-175e-4487-9c11-7bf78cdc1bf2",
+        "id": "5b2699b5-9b02-4b6b-a1e0-3eda98cb84e1",
         "name": "Get all places",
         "request": {
           "url": {
@@ -25,7 +25,7 @@
         "event": []
       },
       {
-        "id": "44dd7464-a6ae-45c7-a93c-f7a24429e5cf",
+        "id": "bdf8c523-39b6-487b-bae3-1b5b0dae4fd3",
         "name": "Get place ID 1",
         "request": {
           "url": {
@@ -52,17 +52,17 @@
     "event": [],
     "variable": [],
     "info": {
-      "_postman_id": "afd14b7d-3d18-43e1-a813-30ed4ecb13dc",
+      "_postman_id": "177b3b8a-5060-4b1e-b85d-55a29ada4fce",
       "name": "Bangladesh Tourism API Tests",
       "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     }
   },
   "environment": {
-    "id": "4bbe1a99-e686-437e-9212-dff6f9ad6db7",
+    "id": "e58c2248-0d69-4fab-aed0-7382d94280a9",
     "values": []
   },
   "globals": {
-    "id": "9bbc5167-856f-4978-9809-0063dab005d3",
+    "id": "267527c6-4775-4abc-bb98-7564cb5292e8",
     "values": []
   },
   "run": {
@@ -114,10 +114,10 @@
       }
     },
     "timings": {
-      "responseAverage": 400,
-      "responseMin": 258,
-      "responseMax": 542,
-      "responseSd": 142,
+      "responseAverage": 402,
+      "responseMin": 261,
+      "responseMax": 543,
+      "responseSd": 141,
       "dnsAverage": 0,
       "dnsMin": 0,
       "dnsMax": 0,
@@ -126,8 +126,8 @@
       "firstByteMin": 0,
       "firstByteMax": 0,
       "firstByteSd": 0,
-      "started": 1777584505624,
-      "completed": 1777584506722
+      "started": 1777678869477,
+      "completed": 1777678870852
     },
     "executions": [
       {
@@ -140,11 +140,11 @@
           "eof": false,
           "bof": true,
           "cr": false,
-          "ref": "43d8275d-bfdf-40ad-b708-43a333e673d3",
-          "httpRequestId": "810323ce-0eea-4ad8-9e95-e8e4ee196d79"
+          "ref": "8f7728da-7640-4bf0-bf1e-43c45a2d47a4",
+          "httpRequestId": "cef9371c-ba69-43dd-b1c4-a5b0dcd16c5f"
         },
         "item": {
-          "id": "a85d98bd-175e-4487-9c11-7bf78cdc1bf2",
+          "id": "5b2699b5-9b02-4b6b-a1e0-3eda98cb84e1",
           "name": "Get all places",
           "request": {
             "url": {
@@ -199,7 +199,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "66745eb1-e202-4b7a-8249-c5a3a3ab1dbf",
+              "value": "51556e78-49d7-444d-a6dd-a84cbde7d6ad",
               "system": true
             },
             {
@@ -221,13 +221,13 @@
           "method": "GET"
         },
         "response": {
-          "id": "5b56f8de-9e22-4d06-89e9-28311c047619",
+          "id": "81455160-f0d9-475a-9cec-19a4d68b7544",
           "status": "OK",
           "code": 200,
           "header": [
             {
               "key": "Date",
-              "value": "Thu, 30 Apr 2026 21:28:27 GMT"
+              "value": "Fri, 01 May 2026 23:41:11 GMT"
             },
             {
               "key": "Content-Type",
@@ -247,7 +247,7 @@
             },
             {
               "key": "rndr-id",
-              "value": "9354eaae-f297-4648"
+              "value": "b154e1d9-028a-4976"
             },
             {
               "key": "Server",
@@ -267,7 +267,7 @@
             },
             {
               "key": "CF-RAY",
-              "value": "9f49a2df9c9548ff-DAC"
+              "value": "9f52a2ae5caa8d38-DAC"
             },
             {
               "key": "alt-svc",
@@ -540,22 +540,22 @@
             ]
           },
           "cookie": [],
-          "responseTime": 542,
+          "responseTime": 543,
           "responseSize": 260
         },
-        "id": "a85d98bd-175e-4487-9c11-7bf78cdc1bf2"
+        "id": "5b2699b5-9b02-4b6b-a1e0-3eda98cb84e1"
       },
       {
         "cursor": {
-          "ref": "1fc013d7-c654-425b-b20f-4e091abac110",
+          "ref": "8d588c49-4ea3-4c68-bb06-5344cac4e44c",
           "length": 2,
           "cycles": 1,
           "position": 1,
           "iteration": 0,
-          "httpRequestId": "2e6854e2-ee44-4217-add2-1e42be831e28"
+          "httpRequestId": "83265a84-9de1-4ac7-aaeb-0e9b9ecad082"
         },
         "item": {
-          "id": "44dd7464-a6ae-45c7-a93c-f7a24429e5cf",
+          "id": "bdf8c523-39b6-487b-bae3-1b5b0dae4fd3",
           "name": "Get place ID 1",
           "request": {
             "url": {
@@ -612,7 +612,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "15b7462f-3214-4a2d-9676-b41cfdbb3f72",
+              "value": "2891c242-c0d0-4246-a2e6-0d66af221702",
               "system": true
             },
             {
@@ -634,13 +634,13 @@
           "method": "GET"
         },
         "response": {
-          "id": "c5b89ae9-9ca9-4f30-a952-1fd035e98061",
+          "id": "8fa869ef-1afe-4f58-a506-1554ea6e1f1e",
           "status": "OK",
           "code": 200,
           "header": [
             {
               "key": "Date",
-              "value": "Thu, 30 Apr 2026 21:28:27 GMT"
+              "value": "Fri, 01 May 2026 23:41:11 GMT"
             },
             {
               "key": "Content-Type",
@@ -660,7 +660,7 @@
             },
             {
               "key": "rndr-id",
-              "value": "5d01d102-0551-4b16"
+              "value": "3dbd1861-9ded-4d0e"
             },
             {
               "key": "Server",
@@ -680,7 +680,7 @@
             },
             {
               "key": "CF-RAY",
-              "value": "9f49a2e2e9b448ff-DAC"
+              "value": "9f52a2b2ffee8d38-DAC"
             },
             {
               "key": "alt-svc",
@@ -779,10 +779,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 258,
+          "responseTime": 261,
           "responseSize": 86
         },
-        "id": "44dd7464-a6ae-45c7-a93c-f7a24429e5cf"
+        "id": "bdf8c523-39b6-487b-bae3-1b5b0dae4fd3"
       }
     ],
     "transfers": {
